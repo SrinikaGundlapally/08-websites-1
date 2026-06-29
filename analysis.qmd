@@ -1,6 +1,19 @@
 ---
 title: "Analyzing Music Data"
-format: html
 author: "Srinika Gundlapally"
+format:
+  html:
+    toc: false
+    embed-resources: false
+    css: |
+      #quarto-content, footer {
+        display: none !important;
+      }
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
+```{r}
+library(tidyverse)
