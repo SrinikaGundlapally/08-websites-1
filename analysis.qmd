@@ -16,4 +16,6 @@ execute:
 ---
 
 ```{r}
-library(tidyverse)
+#| message: false
+music_data <- read_csv("data/music.csv")
+print(music_data)
